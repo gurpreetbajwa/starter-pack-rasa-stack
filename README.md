@@ -57,7 +57,7 @@ This starter-pack contains some training data and the main files which you can u
 ```yaml
 language: "en"
 
-pipeline: spacy_sklearn
+pipeline: pretrained_embeddings_spacy
 ```
 
 ### Files for Rasa Core model
