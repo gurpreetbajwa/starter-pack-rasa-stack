@@ -29,5 +29,5 @@ class ActionJoke(Action):
 #       dispatcher.utter_message("The full path of you file is: " + full_path)  # send the message back to the user
         with open('sample.xlsx', 'rb') as f:
             r = requests.post('http://httpbin.org/post', files={'sample.xlsx': f})
-        dispatcher.utter_message(r.text.Host)
+        dispatcher.utter_message(r.text)
         return []
