@@ -5,14 +5,19 @@ intents:
 - deny
 - joke
 - name
+- jdaprocess
+- filename
 
 
 entities:
 - name
+- filename
 
 
 slots:
   name:
+    type: text
+  filename:
     type: text
 
 
@@ -22,6 +27,8 @@ actions:
 - utter_greet
 - utter_goodbye
 - action_joke
+- utter_jdaprocess
+- action_processfile
 
 
 templates:
@@ -36,4 +43,8 @@ templates:
   
   utter_thanks:
   - text: "My pleasure."
+  
+  utter_jdaprocess:
+  - text: "Sure, please enter the name of your excel file."
+
   
