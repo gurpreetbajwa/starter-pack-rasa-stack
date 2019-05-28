@@ -121,3 +121,23 @@
 - Can you tell jokes?
 - Please tell me a joke
 - I need to hear a joke
+
+## intent:jdaprocess
+- Can you run jda process
+- Can you check jda price update
+- jda price update
+- check for updates in jda price
+- process to check jda price update
+- look for jda price updates
+- please process excel with jda price updates
+- check jda prices
+- Please process to check jda price updates
+- initiate jda price update
+
+
+## intent:filename
+- The file name is [sample](filename)  <!--- Square brackets contain the value of entity while the text in parentheses is a a label of the entity --> 
+- [priceupdate](filename)
+- It is [input](filename)
+- Pick [rawinputs](filename)
+- file is [sample](filename)
