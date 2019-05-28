@@ -22,7 +22,7 @@
 ## story_joke_02
 * greet
  - utter_name
-* name{"name":"Lucy"} <!--- User response with an entity. In this case it represents user message 'My name is Lucy.' --> 
+* name{"name":"Lucy"} - User response with an entity. In this case it represents user message 'My name is Lucy.'  
  - utter_greet
 * joke
  - action_joke
@@ -30,3 +30,29 @@
  - utter_thanks
 * goodbye
  - utter_goodbye 
+ 
+ ## story_jda_01
+* greet
+ - utter_name
+* jdaprocess
+ - utter_jdaprocess
+* filename{"filename":"sample"}
+ - action_processfile
+* goodbye
+ - utter_goodbye 
+ 
+## story_jda_02
+
+* jdaprocess
+ - utter_jdaprocess
+* filename{"filename":"sample"}
+ - action_processfile
+* goodbye
+ - utter_goodbye
+ 
+## story_jda_03
+
+* jdaprocess
+ - utter_jdaprocess
+* filename{"filename":"sample"}
+ - action_processfile
